@@ -1,0 +1,111 @@
+export const ROUTES = {
+  HOME: "/",
+  ARTICLE: "/article",
+  CATEGORY: "/category",
+  MEDIA: "/media",
+};
+
+export const NAVIGATION_ITEMS = [
+  { name: "Home", path: "/" },
+  { name: "Technology", path: "/category/technology" },
+  { name: "Tutorials", path: "/category/tutorials" },
+  { name: "Movies", path: "/media/movies" },
+  { name: "Music", path: "/media/music" },
+  { name: "News", path: "/media/news" },
+  { name: "Research", path: "/category/research" },
+];
+
+export const CATEGORIES = [
+  { 
+    name: "Technology", 
+    slug: "technology", 
+    icon: "laptop-code", 
+    color: "primary" 
+  },
+  { 
+    name: "Tutorials", 
+    slug: "tutorials", 
+    icon: "book-open", 
+    color: "secondary" 
+  },
+  { 
+    name: "Innovation", 
+    slug: "innovation", 
+    icon: "lightbulb", 
+    color: "accent" 
+  },
+  { 
+    name: "Movies", 
+    slug: "movies", 
+    icon: "film", 
+    color: "amber-500" 
+  },
+  { 
+    name: "Music", 
+    slug: "music", 
+    icon: "music", 
+    color: "purple-500" 
+  },
+  { 
+    name: "News", 
+    slug: "news", 
+    icon: "newspaper", 
+    color: "blue-500" 
+  },
+  { 
+    name: "Research", 
+    slug: "research", 
+    icon: "flask", 
+    color: "green-500" 
+  },
+];
+
+export const POPULAR_TOPICS = [
+  "Artificial Intelligence",
+  "Web Development",
+  "Blockchain",
+  "UX Design",
+  "Data Science",
+  "Cloud Computing",
+  "Mobile Development",
+  "Digital Marketing",
+];
+
+export const FOOTER_LINKS = {
+  quickLinks: [
+    { name: "Home", path: "/" },
+    { name: "About Us", path: "/about" },
+    { name: "Categories", path: "/categories" },
+    { name: "Latest Articles", path: "/articles" },
+    { name: "Media Library", path: "/media" },
+    { name: "Resources", path: "/resources" },
+    { name: "Contact", path: "/contact" },
+  ],
+  categories: [
+    { name: "Technology", path: "/category/technology" },
+    { name: "Innovation", path: "/category/innovation" },
+    { name: "Tutorials", path: "/category/tutorials" },
+    { name: "Movies", path: "/media/movies" },
+    { name: "Music", path: "/media/music" },
+    { name: "News", path: "/media/news" },
+    { name: "Research", path: "/category/research" },
+  ],
+  social: [
+    { name: "Twitter", icon: "twitter", url: "#" },
+    { name: "Facebook", icon: "facebook", url: "#" },
+    { name: "Instagram", icon: "instagram", url: "#" },
+    { name: "LinkedIn", icon: "linkedin", url: "#" },
+    { name: "YouTube", icon: "youtube", url: "#" },
+  ],
+  legal: [
+    { name: "Privacy Policy", path: "/privacy" },
+    { name: "Terms of Service", path: "/terms" },
+    { name: "Cookie Policy", path: "/cookies" },
+  ],
+};
+
+export const MEDIA_TYPES = {
+  MOVIES: "movies",
+  MUSIC: "music",
+  NEWS: "news",
+};
